@@ -4,6 +4,13 @@ Search, explore and download Lossless and Hi-Res music from [Qobuz](https://www.
 
 ## Features
 
+#### This Fork
+
+* Allows overwriting existing files
+* (Experimental) Support for featured artist tagging
+
+#### Upstream
+
 * Download FLAC and MP3 files from Qobuz
 * Explore and download music directly from your terminal with **interactive** or **lucky** mode
 * Download albums, tracks, artists, playlists and labels with **download** mode
