@@ -191,6 +191,12 @@ class Download:
             )
         else:
             logger.info(f"{OFF}Demo. Skipping")
+
+        if self.cleanup_cover:
+            img_path =os.path.join(dirn, "cover.jpg") 
+            if os.path.isfile(img_path):
+                os.remove(img_path)
+
         logger.info(f"{GREEN}Completed")
 
     def _download_and_tag(
